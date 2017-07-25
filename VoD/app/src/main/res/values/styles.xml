@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback"></style>
+    Overriding card style
+
+    <style name="SideInfoCardStyle" parent="Widget.Leanback.BaseCardViewStyle">
+        <item name="cardType">infoUnder</item>
+    </style>
+
+    <style name="MyCustomRowHeaderStyle" parent="Widget.Leanback.Row.Header">
+        <item name="android:background">@color/purple_dark</item>
+    </style>
+    
+    <style name="NavPanelStaticTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">#a8a8a8</item>
+        <item name="android:background">@color/purple_dark1</item>
+        <item name="android:layout_marginRight">5dip</item>
+    </style>
+
+    <style name="NavPanelDynamicTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="DetailsInfoStaticTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">#a8a8a8</item>
+        <item name="android:layout_marginRight">5dip</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:height">@dimen/details_button_height</item>
+        <item name="android:width">@dimen/details_button_width</item>
+        <item name="android:background">@drawable/details_button_color_selector</item>
+        <item name="android:selectableItemBackground">@color/orange</item>
+    </style>
+
+
+</resources>

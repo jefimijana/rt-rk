@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_item_new"
+        android:title="New" />
+    <item
+        android:id="@+id/nav_item_popular"
+        android:title="Popular" />
+    <item
+        android:id="@+id/nav_item_hdmovies"
+        android:title="HD Movies" />
+    <item
+        android:id="@+id/nav_item_tvseries"
+        android:title="TV Series" />
+    <item
+        android:id="@+id/nav_item_action"
+        android:title="Action" />
+</menu>
